@@ -2,7 +2,7 @@
   "name": "meet_app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/JoshDeCuir/meet_app.git",
+  "homepage": "https://joshdecuir.github.io/meet_app",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
