@@ -23,7 +23,7 @@ frameworkVersion: "3"
 provider:
   name: aws
   runtime: nodejs18.x
-  region: us-west-2
+  region: us-east-1
   timeout: 30 #optional, in seconds, default is 6
   environment:
     CLIENT_ID: ${file(config.json):CLIENT_ID}
