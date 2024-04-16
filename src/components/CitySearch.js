@@ -1,6 +1,6 @@
 // src/components/CitySearch.js
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const CitySearch = ({ allLocations }) => {
   const [showSuggestions, setShowSuggestions] = useState(false);
@@ -16,6 +16,10 @@ const CitySearch = ({ allLocations }) => {
     setQuery(value);
     setSuggestions(filteredLocations);
   };
+
+  useEffect(() =>{
+    setSuggestions(allLocations);
+  }, [`${allLocations}`]);
 
   const handleItemClicked = (event) => {
     const value = event.target.textContent;
