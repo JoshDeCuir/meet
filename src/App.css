@@ -87,3 +87,7 @@ input[type="number"] {
   cursor: pointer;
   transition-duration: 0.4s;
 }
+
+.details-btn:hover {
+  background-color: #4987a8;
+}
