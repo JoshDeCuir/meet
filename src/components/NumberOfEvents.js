@@ -15,7 +15,7 @@ const NumberOfEvents = ({ setCurrentNOE, setErrorAlert }) => {
       infoText = "";
       setCurrentNOE(value);
     }
-    setErrorAlert(infoText);
+    //setErrorAlert(infoText);
   }
 
   return (
