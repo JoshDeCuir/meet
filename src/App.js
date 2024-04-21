@@ -30,7 +30,6 @@ const App = () => {
       < CitySearch allLocations={allLocations} setCurrentCity={setCurrentCity}/>
       < NumberOfEvents setCurrentNOE={setCurrentNOE} />
       < EventList events={events} />
-      < Event />
     </div>
   );
 };
