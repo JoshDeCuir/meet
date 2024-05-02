@@ -32,7 +32,7 @@ input[type="number"] {
 }
 
 .city {
-  width: 25%;
+  width: 45%;
   margin-left: auto;
   padding: 10px;
   border: 1px solid #ccc;
@@ -43,10 +43,10 @@ input[type="number"] {
 }
 
 #city-search {
-  display: flex;
+  display: center;
   flex-direction: column;
-  margin: auto;
   position: relative;
+  margin: auto;
 }
 
 .suggestions {
@@ -54,7 +54,7 @@ input[type="number"] {
   position: absolute;
   top: 45px;
   z-index: 2;
-  right: 0;
+  align-self: center;
   margin: 0;
   font-size: 14px;
   box-shadow: 10px 10px 16px -12px rgba(0, 0, 0, 0.75);
