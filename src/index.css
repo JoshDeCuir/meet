@@ -7,6 +7,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #8a959c;
 }
+h1{
+  text-align: center;
+}
+h3{
+  text-align: center;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
