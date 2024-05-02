@@ -40,7 +40,7 @@ const App = () => {
       <div className='alerts-container'>
         {infoAlert.length ? <InfoAlert text={infoAlert}/> : null }
         {errorAlert.length ? <ErrorAlert text={errorAlert} /> : null }
-        {errorAlert.length ? <warningAlert text={warningAlert} /> : null }
+        {errorAlert.length ? <WarningAlert text={warningAlert} /> : null }
       </div>
       < CitySearch 
           allLocations={allLocations} 
