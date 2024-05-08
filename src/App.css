@@ -73,7 +73,7 @@ input[type="number"] {
 }
 
 .suggestions > li:hover {
-  background-color: rgb(115, 118, 214);
+  background-color: rgb(77, 79, 155);
 }
 
 .event {
@@ -97,7 +97,7 @@ input[type="number"] {
 }
 
 .details-btn:hover {
-  background-color: rgb(115, 118, 214);
+  background-color: rgb(77, 79, 155);
 }
 .alerts-container {
   position: fixed;
@@ -105,4 +105,17 @@ input[type="number"] {
   left: 20px;
   width: 250px;
   z-index: 1000;
+}
+
+.charts-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 20px; 
+  padding-top: 20px;
+}
+
+@media (max-width: 768px){
+  .charts-container{
+    grid-template-columns: 1fr;
+  }
 }
